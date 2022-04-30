@@ -40,7 +40,6 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
-            <version>${slf4j.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-logging</groupId>
@@ -51,7 +50,6 @@
         <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-broker</artifactId>
-            <version>${activemq.version}</version>
         </dependency>
         <!-- Test scoped dependencies -->
         <dependency>
@@ -120,6 +118,7 @@
                     <plugin>
                         <groupId>org.apache.activemq.tooling</groupId>
                         <artifactId>activemq-maven-plugin</artifactId>
+                        <version>5.15.2</version>
                         <executions>
                             <execution>
                                 <id>start-activemq</id>

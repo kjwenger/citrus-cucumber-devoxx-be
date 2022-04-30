@@ -19,9 +19,11 @@ package com.consol.citrus.demo.voting.unit;
 import com.consol.citrus.demo.voting.model.*;
 import com.consol.citrus.demo.voting.service.VotingService;
 import com.consol.citrus.demo.voting.service.VotingServiceImpl;
-import cucumber.api.DataTable;
-import cucumber.api.java.After;
-import cucumber.api.java.en.*;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.After;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 import java.util.*;

@@ -1,3 +1,4 @@
+@ignore
 Feature: Voting Http JMS
 
   Scenario Outline: Receive reporting

@@ -16,7 +16,7 @@
 
 package com.consol.citrus.demo.voting.unit;
 
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 /**

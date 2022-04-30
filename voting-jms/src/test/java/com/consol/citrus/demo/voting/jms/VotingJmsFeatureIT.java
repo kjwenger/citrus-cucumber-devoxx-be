@@ -16,10 +16,8 @@
 
 package com.consol.citrus.demo.voting.jms;
 
-import io.cucumber.java.Before;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-import org.junit.Assume;
 import org.junit.runner.RunWith;
 
 /**

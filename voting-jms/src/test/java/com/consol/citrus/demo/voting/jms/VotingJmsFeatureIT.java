@@ -32,10 +32,4 @@ import org.junit.runner.RunWith;
                  "com.consol.citrus.cucumber.step.runner.core" },
         plugin = { "com.consol.citrus.cucumber.CitrusReporter" } )
 public class VotingJmsFeatureIT {
-
-    @Before()
-    public void before() {
-        Assume.assumeTrue(false);
-    }
-
 }
